@@ -1,0 +1,49 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/usr/bin/python', local('/ws/upadhyay/myplugin/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/ws/upadhyay/myplugin/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+creating MyFirstPlugin.egg-info
+writing MyFirstPlugin.egg-info/PKG-INFO
+writing top-level names to MyFirstPlugin.egg-info/top_level.txt
+writing dependency_links to MyFirstPlugin.egg-info/dependency_links.txt
+writing entry points to MyFirstPlugin.egg-info/entry_points.txt
+writing manifest file 'MyFirstPlugin.egg-info/SOURCES.txt'
+reading manifest file 'MyFirstPlugin.egg-info/SOURCES.txt'
+writing manifest file 'MyFirstPlugin.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating MyFirstPlugin-0.1
+creating MyFirstPlugin-0.1/MyFirstPlugin.egg-info
+creating MyFirstPlugin-0.1/plugin
+making hard links in MyFirstPlugin-0.1...
+hard linking README.txt -> MyFirstPlugin-0.1
+hard linking setup.py -> MyFirstPlugin-0.1
+hard linking MyFirstPlugin.egg-info/PKG-INFO -> MyFirstPlugin-0.1/MyFirstPlugin.egg-info
+hard linking MyFirstPlugin.egg-info/SOURCES.txt -> MyFirstPlugin-0.1/MyFirstPlugin.egg-info
+hard linking MyFirstPlugin.egg-info/dependency_links.txt -> MyFirstPlugin-0.1/MyFirstPlugin.egg-info
+hard linking MyFirstPlugin.egg-info/entry_points.txt -> MyFirstPlugin-0.1/MyFirstPlugin.egg-info
+hard linking MyFirstPlugin.egg-info/top_level.txt -> MyFirstPlugin-0.1/MyFirstPlugin.egg-info
+hard linking plugin/__init__.py -> MyFirstPlugin-0.1/plugin
+hard linking plugin/myentrypoint.py -> MyFirstPlugin-0.1/plugin
+hard linking plugin/test_module2.py -> MyFirstPlugin-0.1/plugin
+Writing MyFirstPlugin-0.1/setup.cfg
+creating '.tox/dist/MyFirstPlugin-0.1.zip' and adding 'MyFirstPlugin-0.1' to it
+adding 'MyFirstPlugin-0.1/setup.py'
+adding 'MyFirstPlugin-0.1/setup.cfg'
+adding 'MyFirstPlugin-0.1/PKG-INFO'
+adding 'MyFirstPlugin-0.1/README.txt'
+adding 'MyFirstPlugin-0.1/MyFirstPlugin.egg-info/PKG-INFO'
+adding 'MyFirstPlugin-0.1/MyFirstPlugin.egg-info/entry_points.txt'
+adding 'MyFirstPlugin-0.1/MyFirstPlugin.egg-info/dependency_links.txt'
+adding 'MyFirstPlugin-0.1/MyFirstPlugin.egg-info/top_level.txt'
+adding 'MyFirstPlugin-0.1/MyFirstPlugin.egg-info/SOURCES.txt'
+adding 'MyFirstPlugin-0.1/plugin/myentrypoint.py'
+adding 'MyFirstPlugin-0.1/plugin/test_module2.py'
+adding 'MyFirstPlugin-0.1/plugin/__init__.py'
+removing 'MyFirstPlugin-0.1' (and everything under it)

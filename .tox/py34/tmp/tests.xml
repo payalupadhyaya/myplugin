@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="0.010"><testcase classname="plugin.test_module2" file="plugin/test_module2.py" line="3" name="test_myplugin" time="0.0006148815155029297"><system-out>Test myplugin
+</system-out></testcase></testsuite>

@@ -1,0 +1,10 @@
+README.txt
+setup.py
+MyFirstPackage.egg-info/PKG-INFO
+MyFirstPackage.egg-info/SOURCES.txt
+MyFirstPackage.egg-info/dependency_links.txt
+MyFirstPackage.egg-info/entry_points.txt
+MyFirstPackage.egg-info/top_level.txt
+plugin/__init__.py
+plugin/myentrypoint.py
+plugin/test_module2.py
