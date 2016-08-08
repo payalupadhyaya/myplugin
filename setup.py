@@ -14,9 +14,11 @@ setup(
     dependency_links=[
       'file:/ws/upadhyay/myplugin',
     ],
+    url='https://github.com/payalupadhyaya/myplugin',
+    keywords='myplugin',
     entry_points = {
         'pytest11': ['plugin=plugin.myentrypoint'],
-        'ting': ['plugin=plugin.secondentrypoint:secondentryPoint']
+#        'ting': ['ting=plugin.secondentrypoint:secondentryPoint']
     }
 )
 

@@ -1,5 +1,1 @@
-pytest===2.8.4
-pytest-repeat
-pexpect
-pytest-ordering
-deepdiff
+six
