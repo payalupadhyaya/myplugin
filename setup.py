@@ -14,11 +14,19 @@ setup(
     dependency_links=[
       'file:/ws/upadhyay/secondplugin',
     ],
+<<<<<<< HEAD
     url='https://github.com/payalupadhyaya/secondplugin',
     keywords='secondplugin',
     entry_points = {
         'console_scripts':
         ['ting=secondplugin.secondentrypoint:externalPoint']
+=======
+    url='https://github.com/payalupadhyaya/myplugin',
+    keywords='myplugin',
+    entry_points = {
+        'pytest11': ['plugin=plugin.myentrypoint'],
+        'ting': ['ting=plugin.secondentrypoint:secondentryPoint']
+>>>>>>> c4fc193bdd659d853c45a2a223b4cf607585821d
     }
 )
 
