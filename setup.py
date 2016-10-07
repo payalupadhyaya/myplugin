@@ -18,7 +18,7 @@ setup(
     keywords='myplugin',
     entry_points = {
         'pytest11': ['plugin=plugin.myentrypoint'],
-#        'ting': ['ting=plugin.secondentrypoint:secondentryPoint']
+        'ting': ['ting=plugin.secondentrypoint:secondentryPoint']
     }
 )
 
